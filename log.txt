@@ -1,0 +1,731 @@
+33207ef Add missing custom configuration for auto complete
+6fde473 Include windows support build with 7z and zip
+3f4ed1b Fix custom server filter been removed on editing the server
+b2dc199 Prepare version 1.20.2
+ba2550e Convert ArrayBuffer
+12c7825 Prepare version 1.20.1
+8dbfac4 Change prompt modal to not be closable trough clicking outside of the modal
+0059755 Rename CONNECTION_REQUIRE_SSH_PASSWORD to CONNECTION_REQUIRE_SSH_PASSPHRASE
+1233894 Add example to see prettier log with cat+bunyan
+3798d58 Fix config not been created
+88ed74d Fix input files not respecting the disabled state
+ab0d603 Make "defaultChecked" a not required property
+6eaad55 Add doc about the configuration file
+698230f Parse config object from IPC to plain object
+577d556 Fix log to allow use console and file at same time
+967fc06 Fix checkbox component warnings
+287649d Add docs for logging
+d2935cc Fix log to respect configuration settings
+34b5f0b Improve log in renderer to only save to file actions with error
+903ac05 Try add the error stack in the logs if possible
+ce72065 Disable formatting for renderer logs to file
+38603d2 Ovewrite reload shortcut without global settings
+c48bdf6 Upgrade sqlectron-core to 7.6.0
+eb4259c Extract css/sass files for production build
+56a73d2 Fix previous optimization changes
+db7ece3 Optimize renderer build
+dfc6a9a Upgrade all babel deps
+53404ed Fix eslint errors
+afaaa47 Add support to log to file in production
+2ddc995 Remove config for Radium.
+bbe39ef Use electron dep instead electron-prebuilt
+49e2122 Fix problem with lodash dependency
+a7e51bf Prepare version 1.20.0
+3d47638 Add a default port for SSH
+dad69d8 Fix typo in script
+66fefb3 Refactor server modal components
+5c0208f Updage sqlectron-core with fix patches
+e3213f8 Improve build
+aef5901 Set a fixed version for electron-builder and remove electron-rebuild
+a257c52 Remove build for 32bit for while
+a172aad Change schema support to handle multiple schemas
+852e78d feat: Add schema support for the tables, views, triggers and connection
+0e2b195 feat: add support for schema in autocomplete
+af61238 Show info when there is duplicated columns
+4ad8cc4 Prepare version 1.19.0
+46a1e42 Add SQLite support and update builder settings
+db1ad1d Add support to set the zoom factor
+25f2aa4 Load config only once
+75441ef Add doc of how to pronounce sqlectron
+301b215 Fix disconnect from sqlserver
+e737803 Remove max length from most server fields
+f71bad7 Merge pull request #279 from blakek/issue-278
+58526c6 Add additional keybinding (Ctrl/Cmd-R) to execute query #278
+ded7313 Change keybinding to reload browser window
+61b993f Fix electron-builder settings due new version
+f332aad Add missing propType on compoment
+e7dd631 Prepare version 1.18.0
+432c1a1 Merge remote-tracking branch 'felipetoffolo1/listing-indexes'
+01c16d6 Fix devtools shortcut (#272)
+5ed645c Add support for listing indexes (#266)
+503ee9a Makes clearer the metadata for db still loading
+4d3d1dc Change bg color for current and connected dbs
+662c312 Do not allow cancel the same query twice
+c147c62 Prepare version 1.17.0
+81ebc07 Attempt to fix #264
+2873644 Add support to set the Windows domain (sqlserver)
+1e44f10 Allow to cancel queries while are running
+7caa579 Forward current db below to be able to highlight the current db (#259)
+37e8491 Server can be saved now without a password or user (#256)
+051b947 Add support to rename tab (close #202)
+2d29da8 Prepare version 1.16.0
+b79a0a8 Upgrade sqlectron-core to version 7.0.0
+959e7b7 Auto scroll tabs on closing a tab
+ffcb782 feat: allow press 'enter' to submit promp modal like passphrase and all (#249)
+18b232d feat: allow press 'escape' to exit modal. (#248)
+1421c61 feature: add new tab button (#244)
+9593d9f feat: add 'via' in the server list to make distinction with ssh (#245)
+242d9cc Merge pull request #243 from eMerzh/tab_arrow_hidden
+02121cc ux: hide tab mover (left/right) when the tab list fit on screen
+70a4a6d Add horizontal scroll for tabs list
+a4ede27 Merge pull request #241 from eMerzh/feat_replace_dbname
+2549442 feat: use transparent mysql logo
+c9afc03 feat: replace the database name by the Connection name with the DB logo
+f27f566 improve: Change disconnect icon to poweroff (#240)
+ac41984 fix: substract table scroll from header to sync scrolls in results (#239)
+73c81f3 Upgrade electron to version 1.4.0 with Node 6.5.0
+df66772 Ignore html2canvas from webpack parse
+f8d4b53 Fix resizable componet warn about onResize event
+7241f40 Upgrade react-router to remove deprecated warnings
+86ece67 feat: Add visual distinction to indicate if there are items below (#237)
+044355b Show more error context
+4d6e861 Simplify the tab names
+2dfddfc Fix problem wiping part of the query (close #234)
+55c2ef5 Fix typo
+7a296c0 Improve docs
+eded760 Merge pull request #235 from eMerzh/fix_connecting_screen
+a34f7b0 fix: Avoid enabling the "test" connection if no db type is selected
+d47b888 fix: Fix uncontrolled to controlled fields
+462d8e3 fix: Style fix trying to unblurr retina render. ref #191 (#225)
+5862c47 fix: add refresh for views when refreshing the database (#230)
+c8719ac fix: fix closing connection for a test connection (#232)
+0c3389b fix: Fix warning about null input and fix style (#231)
+b38a959 Improve docs including step to install dependencies
+59782ec Display ssh configuration only if checked to unclutter the screen (#222)
+7bfb0b4 Prepare version 1.15.0
+d37f279 Add meaningful names to tabs (close #214)
+9e66458 Prepare version 1.14.0
+fd53dfa Add support to show EXPLAIN command result for PG
+784d1a2 Simplify the README doc
+e8b6443 Simplify how to run the app with a single command
+f2129a1 Prepare release 1.13.0
+7161fcf Move doc about supported dbs to core project
+9095fb5 Add support for Cassandra
+9332f69 Simplify the docs
+944df6e Add link to shortcuts and gather common info
+a444003 Add demo back
+7653e3f Merge branch 'custom-scrollbar'
+4969657 Fix window title name
+b08d882 Upgrade electron to 1.2.7
+b5cba47 Use custom scrollbar
+4a385e8 Prepare release 1.12.0
+7e8f13d Prepare release 1.11.3
+b5374b7 Fix #207 - Unnecessary scrolling on query results
+f308e4b Minor grammar fixes in README.md (#206)
+4b29b63 Prepare release 1.11.2
+eff6ac8 Include release for linux 32 bit
+e67d36c Use latest clang version from llvm repo
+1330d37 Doesn't show scrollbar on header any more, fix height for one or multiples rows (#205)
+2968d01 Prepare version 1.11.2-beta.0
+c943b3b Remove package dependecies for Linux apps
+517d6b0 Prepare version 1.11.1
+eaf6e17 Fix eslint to run over js and jsx files
+3134f09 Fix problem rendering results withouth rows
+5b94fa0 Prepare relase 1.11.0
+2e11fc2 Run tests before the dist task
+92297d1 Upgrade eslint config and aplly suggested changes
+678f742 Squashed commit of the following:
+30dd5cf Merge pull request #198 from BornaP/export-to-image
+14a24cf Change dropdown to open upwards
+f1481fe Code refactoring - move reapplying css rules outside of redux action
+81d6d62 Add installer support for more Linux distros
+2631264 ESlint suggested changes
+15ed769 Disable user from moving elements on graph while saving or exporting diagram
+cc7ab28 Add feature: export diagram to png and jpeg format
+31770fc Include build/dist for rpm and pacman
+3cf0055 Prepare release 1.10.0
+da0bc34 Fix typo (#196)
+7fd9e4b Feature: Add related tables on right click (#195)
+d71ebe7 Merge pull request #194 from BornaP/mark-keys-on-diagram
+7ad60e4 Add header to diagram modal
+02ee486 Fix: no need to call .text() and .addClass() every time element is moved
+c21f5c2 Add key icons next to PK and FKs
+53f4eba Upgrade to sqlectron-core v6.2.0 API
+15b25ce Fix problem resizing after first query
+1a6e425 Fix #190 - Scroll bar over table with single row
+8f79752 Remove not used dependency
+9c1a71d Fix jointjs for latest version 0.9.9
+f4a2881 Merge pull request #192 from BornaP/diagram-persistence
+f461cb8 Empty selected tables array on closing diagram modal
+d804e57 Fix bug: trigger save dialog on generating new diagram
+88ecc9a Minor renaming fixes to make code more clear
+ff585fc Add feature: open diagram from file
+37d76bb Add all file manipulation related methods to file-handler.js
+1fc5891 Refactor importing database actions
+682a721 Extract showSaveDialog(filters object) and saveFile to utils
+f79faf3 Add save diagram feature
+f476796 Merge pull request #189 from BornaP/feature/database-diagram
+e9b75e7 Merge branch 'master' into feature/database-diagram
+ec7087c Upgrade sqlectron-core to 6.1.1
+a31c5bf Code refactoring
+38938f3 Disable users to disconnect links from elements
+7652ac9 Remove unused variables and apply ESlint suggested changes
+b855d0e Disable moving elements outside of svg paper
+39c1558 Prettify table elements on diagram
+07c7b13 Merge pull request #188 from sqlectron/fix-ci-build
+2cf14f4 Ignore cache on appveyor on package.json changes
+c5b5763 Fix build with latest electron-builder
+0ffb422 Move script of compile files to NPM scripts
+a2462f5 Upgrade all webpack loaders
+a47e952 Remove not used script and depenency
+19c5dd2 Upgrade babel and react trasnform
+69376bd Use clang from Ubuntu package
+6aad891 Fix close splash screen not working
+80c5c0a Add select tables option in modal before rendering diagram
+163ec26  🐛 fix: fix when connecting in local and trying to reach ssh settings (#183)
+ba93786 Improve splash screen
+54bcff2 Fix webpack warning messages
+08a07ef Fix disable auto complete not working
+b75dc2a Fix reload app
+0b47b0c Add docs and script to help test the core changes
+8ec8932 Add link to Slack channel
+ef43a8d Add links between tables on diagram based on foreign key references
+3dcafa9 Upgrade sqlectron-core dependency
+d2946af Update CI builds configs due electron 1.x
+205da65 Upgrade electron and sqlectron-core
+4a34946 Add views to the graph
+cb9d38b Change short keys to focus into the input fields
+87df22a Revert electron to version 0.36.12
+b917633 Initial graph showing tables and columns in modal window
+8d9a7d3 Enable making requests for fetching columns on different tables in the same time
+44ccfbf Add cell component to diagram tables
+7a543c2 Merge branch 'feature/modal-pretty-format'
+57d213e Merge pull request #173 from sqlectron/feature/improve-null-cell-style
+7180ea9 Merge pull request #176 from sqlectron/fix/cell-max-220px-width
+a166574 Show result columns with max 220px
+61671a4 Add modal to show the cell content preview
+f3c3895 Improve NULL cell style
+81774ba Merge pull request #171 from sqlectron/fix-test-connection
+97cd8a1 Merge pull request #172 from sqlectron/feature/distinguish-null-values
+3f105b4 Distinguish NULL type from strings with "NULL"
+e68241e Fix test connection
+b8f3bf6 Update the docs about the build flow
+48b467e Add custom diagram-table component based on JointJS
+ba79028 Merge pull request #169 from BornaP/upgrade-electron-to-1.x
+868eb79 Merge pull request #170 from sqlectron/feature/add-support-private-key-password
+05ad596 Add support for private key passphrase
+0e9ff04 Upgrade to electron stable major, v1.1.2
+2b7d15c Merge pull request #164 from sqlectron/feature/scroll-paging
+ea7c0d2 Replace paging results with scroll
+0a5d642 Fix problem not rendering null values
+db3d32f Add shortcut to focus the query editor
+5c80cb9 Fix problem of rendering multiple unkown columns
+991483e Merge pull request #162 from sqlectron/add-search-shortcuts
+b8974d5 Remove variable not used anymore
+e7ce3b8 Change search shortcuts
+3fcdb4d Change focus trigger to not depend on state change
+6d26012 Fix collapsing database menu on triggering search focus by shortcut
+253324f Add search databases and search database objects keyboard shortcuts
+aecbea0 Merge pull request #161 from sqlectron/feature/configure-editor-search
+037dbfb Merge pull request #160 from sqlectron/feature/refresh-database
+37b680d Configure editor search
+519bd3d Add refresh database button
+a3b60c4 Improve the layout of the context menu
+34f6b03 Apply ESLint suggested changes
+580677c Apply ESLint suggestions
+e890b21 Fix linter
+ae8cf6b Merge pull request #159 from BornaP/minor-bug-fixes
+d1ff3aa Duct taping to get rid of annoying ResizableBox console error
+7f54252 Remove unused PropType that generated error on connection without db specified
+3a98174 Merge pull request #156 from sqlectron/feature/auto-refesh
+131bf85 Change to new way electron modules are required for easier upgrade (#154)
+1522d95 Add support to auto refresh dbs and tables
+e11b98b Upgrade sqlectron-core to version 4.0.0
+c9cc6fe Allow connect/collapse the DB clicking only once in the collapse icon
+36e7220 Force the whole database item be clickable
+75aed65 Do not quit the application on Mac on closing the last window  (close #151)
+e2bfad4 Merge pull request #149 from sqlectron/feature/disable-live-auto-complete
+39e83ea Enable live auto complete by default
+8c70a78 Replace keyboard shortcut label with an icon
+bf1dd28 Add link to docs of keyboard shortcuts (close #150)
+c1be052 Add support to disable the live auto complete
+8322f43 Add support to select current line (close #147)
+01bc057 Apply ESLint suggetions
+f1f6ca8 Improve UX for opening and collapsing a database (close #133)
+2eb9677 Add support to close tab with shortcut (close #89)
+c80ca5e Merge pull request #148 from BornaP/append-query
+da0b7b7 Append query script instead of updating whole query box
+fd6484f Merge pull request #145 from BornaP/126-fix-tr-scaling
+1bd1ec7 Resolves #126 - fix table rows scaling long texts
+d79069f Merge pull request #141 from BornaP/125-objects-sql-definitions
+9073f25 Fetch routines create definition with new sqlectron-core API method
+59387fb Fixed - update SQL editor on selecting already fetched script
+131d4d8 Strip off last s char when sending object type as a property
+f02161f Add preview routine SQL definition
+24b8964 Code refactoring, moved fetching scripts into a single function
+dda8245 Remove nested if-else statement
+f0201f5 Merge pull request #140 from sqlectron/feature/add-support-to-increase-decrease-font
+d60d95f Merge pull request #139 from sqlectron/fixing/138-cancel-query-save
+c209db2 Remove console log that was left by mistake
+14599db Execute default query is not triggered on double click anymore
+91edaf3 Add SQL object definition and scripts for tables and views
+ee4c7b8 Add a installer spinner gif to replace the default one
+36bc478 Prepare version 1.9.0
+7dc1d66 Fix problem duplicating completions (close #135)
+33548c9 Add support to increase/decrease font-size
+6a08e01 Fix when click in cancel while saving a query
+d99636c Upgrade sqlectron-core to 3.5.0
+e797b7d Add context menu to database items
+eeb1947 Move database items rendering into a new component
+608e8b3 Fix CSS keyword “important” not working anymore on React 15
+c72b85a Prepare version 1.8.0
+a50497c Allow disable auto complete through configuration
+6dde83c Merge pull request #132 from sqlectron/feature/auto-complete-metadata
+f424007 Decrease the debounce time for “onSQLChange”
+6509c10 Load database metadata into the auto completion list
+e559c69 Add support to execute selected query through short key
+768ba94 Apply ESLint suggested changes
+06e2b18 Merge pull request #130 from rodrigowirth/feature/selected-query
+236020e Upgrade to react 15
+59a5f85 Execute the selected query
+209c429 Merge pull request #128 from BornaP/query-autocompletion
+55f5894 Add query autocompletion
+1b1b1ef Prepare release 1.7.0
+c41eca3 Merge pull request #124 from BornaP/table-columns-and-triggers
+9aaf74e Make tables collapsible
+6bdd5ba Add table triggers
+6321a7d Move columns in table submenu
+bee40ea Show table icon only on tables
+ea94def Added icons to tables and columns
+47abd8b Syntatic code changes and removed title over columns
+61aa84f Display table columns on click
+f28de0d Extract columns in their own action and reducer
+fc04c50 Add support for fetching table columns
+c8bc314 Upgrade sqlectron-core and remove unnecessary dependency
+cb3cded Update react and redux dev dependencies
+13f9668 Fix problem loading configuration in the renderer process
+ab9f653 Fix build for windows on appveyor
+0de277a Remove not used dependencies
+1031cee Update electron-builder
+bf45d91 Install oficial version of webpack with fix for electron
+ed32d8b Prepare to release 1.6.2
+bc17c9d Fix path to the window’s app icon
+06e5368 Fix problem loading app configuration in production
+305cdee Duplicate version in dev package.json
+11b4a66 Prepare build releases for v1.6.1
+93ae446 Add CI badges
+3e890f8 Add build configuration
+332c2c5 Merge branch 'upgrade-builder'
+dd2e49c Upgrade build configuration for new electron-builder (v3)
+8797f97 Merge pull request #119 from BornaP/114-add-db-metadata-filter
+57b9aaf Resolves #114 - Add db metadata filter
+e613f9b Merge pull request #118 from sqlectron/feature/support-default-database-ports
+d4156c6 Bump version of sqlectron-core to give support to default port
+69a3e58 Change port to default when user haven't choose a port
+357f8a9 Add default port when choose database
+598b965 Merge pull request #115 from BornaP/111-fix-query-result-bug
+b9483b5 Fixes #111
+fdd505b Merge pull request #113 from BornaP/96-resolve-default-db
+1bccec6 Upgrade sqlectron-core to 3.2 and downgrade electron to last working version
+1140a45 Include the defaultDatabase argument  because of postgreSQL
+c5dbe13 Merge pull request #112 from BornaP/fix-typos
+29e2be2 Fix typo when hovering over database and annoying eslint error in build script
+d849174 Upgrade electron-prebuilt to version 0.37.5
+7ec4cb1 Make more clear is possible to execute the database and metadata items
+5f2226b Improve typography in the database list (close #108)
+5c5031a Merge pull request #110 from BornaP/109-fix-querybox-resize
+df6701e Fixes #109 - Query box now resizes well
+7276719 Remove cursor pointer style from double click events
+d29355e Improve layout for metadata items
+e217f49 Remove useless duplicated DIV
+472f700 Fix problem executing the default query in a different DB tab
+9967d66 Improve state handling between connections
+2b148f4 Merge pull request #106 from BornaP/105-error-connection
+5c5daef Discard server session if it fails
+4f601f0 Fixes #105
+811098c Remove database from router
+bc14cab Merge pull request #104 from BornaP/downgrade-electron
+bd9676a Downgrade electron to last version where handling db error connection works
+2b81d86 Upgrade electron to version 0.37.3
+65fea5b Refactor if/else statement to single line code
+18bc4e2 Remove useless `true` comparison
+1a1723a Apply some ESLint suggested changes
+5fa638e Merge pull request #102 from BornaP/98-show-DB-metadata
+cb61e56 Upgrade sqlectron-core to version 3.1.0
+db356a5 Removed unnecessary if/else statements
+8a7513b Code refactoring, db metadata rendering moved to a single file
+2f0bc40 Add support to save query into a file in the disk
+db47af1 Fix problem of overwriting queries on clicking to exec the default query
+e6e34e8 Add functions and procedures listing on toggle
+55049b3 Added listing views on click, plus moving common styles in app.css
+0dc47dc Extracted tables rendering in separate component
+65eed9f Add support for routines
+ffab397 Add support for views
+06d3202 Upgrade docker image to node 4.3
+2caa90f Upgrade electron builder, packager and prebuilt
+441b1a0 1.5.0
+e61787c Apply some fixing to the pull request improving scroll bars (close #94)
+735d33a Merge pull request #94 from kbradl16/patch-4
+fa1b5bb Allow execute the same query repeatedly (close #88)
+b2576ae Fix filter of servers (close #95)
+b878fbd Fix problem rendering boolean values (close #90)
+1b05dfe Update query-browser.jsx
+f1d495c Less scroll bars
+ebe9733 Reduce amount of scroll bars.
+b303fd1 1.4.0
+81a3a3b Fix button to close tab that was not appearing
+50a50ca Improved performance for rendering query results
+d398315 Upgrade electron to version 0.36.7
+e5e1514 Upgrade sqlectron-core to version 3.0.0
+8058244 Fix test connection using the new API
+e6ffa10 Change the resizable icon of the sidebar
+fc8059e Add modal to show client query informations (close #86)
+6eba107 Change the scope for only the tab and use correct value for display attr
+96e1a75 Use separated scroll for the sidebar (close #65)
+719f470 Change the payload coming from sqlectron-core for executeQuery
+8905b57 Use a prettier style for the tabs
+ed8d367 Add support for multiple connections in the same server
+1e5b20a Fix stuck query (close #80)
+3199dd4 Add title to collapse button
+e489956 Use a prettier top right menu
+3d0c042 Decrease the debounce time of the query box to 100 ms
+c7c0876 Use Ctrl instead of Cmd for short keys on windows and linux
+1be65a4 Add support for multiple queries through tabs
+bfd0b4f Upgrade electron to version 0.36.5
+38a1fa1 Upgrade sqlectron-core to version 2.1.0
+9656bcf Include a contributing guideline
+4350ee9 Improve uncaught exceptions showing only error description to the user (close #83)
+b57c6c6 Add button to reconnect (close #58)
+6efa523 Call the disconnect function
+00977f7 Change close connection button to actually close the connection
+92501b4 Add support to duplicate existing servers (close #85)
+8cd958c Change “behavior” of isNew variable
+542c3ff Fix problem not opening modal for new servers
+90137b6 Add support for test connection (close #68)
+cfdfe21 Add CSS hack for confirm modal stay at the top of the parent modal
+b1da474 Use promise all at the right place in the server connecting action
+01bc2b0 Create a DB session for each windows (close #81)
+19d6daf Add collapse button for database content (close #82)
+3070275 Do not pass the main window to menu builder
+1a40a52 1.3.0
+6259182 Make the results per page configurable
+2b8376d Increase the size of the current page button in the query result
+ca2a9b6 Add highlight for the current page
+a3f9fcb Update dependency
+e59e5aa Upgrade some dependencies
+74181ca Fix the docker image name
+5a05201 Remove the crash report system while we don’t have a server for it
+78d1e50 Improved performance during the rendering (close #61)
+ba7cd37 Fix problem saving a new server without SSL (close #77)
+64bd9e7 Remove useless script
+67d3c19 Replace electron-release with github-release
+01c4b40 1.2.0
+6d43a47 Add support to copy result into the clipboard as CSV
+960764f Auto focus to the query box on executing the default query (close #52)
+00bd79c Fix problem with React component without key
+9228ea4 Only show affected rows message if it exists (close #76)
+992379d Add support to open multiple windows
+75b2edc Fix close window button for Mac (close #74)
+82be996 Add support to set the SSL connection option (close #72)
+5c57788 Fix indentation in jsx
+6fcc31c Remove console.log
+cf37188 Fix problem accessing the query result when it is empty (close #71)
+150596e Improve responsive design for server list (#close #69)
+01bdeaf Set window's minimum width and height
+cc09222 Add support for sass
+4f3facb Fix broken select component from Server Modal (close #67)
+eba49db 1.1.1
+f989089 Fix update checker linking to the right URL
+f9daef8 1.1.0
+94b0735 Scroll to top on executing a default select (close #48)
+df327db Add key to each rendered table result
+9cd667e Fix height of the resizable button
+4002d8c Add support to copy results to clipboard (close #64)
+f8fcf04 Upgrade some dependencies
+86e2615 Describe in which version de demo was made
+25866d7 Update list of supported database clients
+4f5aed3 Upgrade sqlectron-core to version 1.3.0 and add support to MSSQL
+69b9614 Remove duplicated default export
+34e32aa Ignore vendor folder for ESlint
+f285a98 Add resizable width to the left panel
+faa6f99 Break down long database and table names in the sidebar
+7f76a71 Fix problem rendering multiple results for non select queries
+b91c639 Centralize the description in the README
+a456544 Centralize the logo in the README
+b911c0c Merge pull request #57 from sqlectron/feature/add-license
+da1a6cf Update link to new logo and demo GIF
+5860176 Add the script to publish a new release
+a399c0a Add license
+c63c557 1.0.0
+534fd89 Merge pull request #55 from krolow/feature/support-for-old-guys
+f677b9d Apply on windows the same approach used for Linux to close the app
+b21b918 Add support to node v0.10.26
+bcb86ab Merge pull request #56 from krolow/fixing/quit-in-linux
+6173386 Fixes quit for linux
+fc1bacc Update logo in splash screen
+7ce8edb Configure menus with valid links
+a4b3cb9 Respond with failed status in case an error occurs in the build task
+d2106dc Update app logos
+8a9ff06 Fix the project URL from Github
+da8fe5c Add update checker
+74203ad Upgrade electron-prebuilt to version 0.35.2
+e8ce625 Remove preferences menu since we don’t have it right now
+fe863f9 Fix a typo
+cf2f3f1 Update the background image for the Mac installer
+d7525c3 Update the app logo
+5f96a55 Renames the app name from “SQLECTRON” to “Sqlectron”
+5383934 Fix build for windows
+9589b6d Add different menu for each platform (close #53)
+36a4cd8 Upgrade electron builder and packager
+f51263a Configure different pack tasks for each windows arch (32, 64)
+a468823 Update resource icons
+1041189 Move Docker configuration to a separated image
+939a0a0 Fix typo
+f89c7e0 Move distributions directories to the project root path
+662e3e7 Improve the distribution task through the Docker
+fe81369 Upgrade spawn-auto-restart
+cb015ba Remove duplicated babel-core dependency
+0b5c136 Remove not used dependencies
+acd670e Change comment for ES6 support
+33950d2 Configure task to create installers for OSX and Windows platforms
+79236ed Enable ASAR package because it is better for distribution
+a12b83b Upgrade electron to version 0.35.1
+5e80c7f Change the commands to start the app in development
+07c7959 Explain when not use the script “run-local-release.js”
+30d7af9 Fix problem ignoring wrong files during the build
+91a3767 Add support to execute a query with multiple statements (close #30)
+1bdee08 Fix problem rendering query results in case there is no loader
+2712ed8 Show connection error message in case something goes wrong while connecting
+b481303 Show rendering message while rendering query results
+06574e7 Add horizontal scroll for query result (close #51)
+d44d8cd Ignore vendor directory for babel loader
+d30849f Improve production bundle and fix problem copying fonts to release app
+b0b8aa3 Convert date values to ISO string
+54ce64d Apply a change suggested by ace component
+711f29a Keep the filtered term after connecting to a different DB (close #49)
+11a4ff5 Change build script to package  to all archs
+f0284a9 Show which are the current connected DB client
+78d5e67 Use local images for client DBs on server-modal-form
+8ffcd1f Fix horizontal alignment of the breadcrumb element
+4590896 Allow resize the query box (close #46)
+9eeb5f9 Show a loader while executing a query (close #45)
+f22bc3c Improve loader for searching and fetching dbs (close #43)
+66ac074 Fix english typo
+f02e8ed Show success message when executing a query with no results (close #44)
+98b1dca Use negative style for query error message
+51b6acc Use inline indentation for TD of “not found” message
+4ec763a Remove remote assets dependencies from semantic-ui (close #41)
+73cafb9 Add into the docs a link to sqlectron-term project
+1dfe97e Use DB clients image locally
+4194d9f Fix typo
+6c8b4cd Use a small line height for the server card description
+1239515 Centralize the DB client image
+7893469 Change server cards to all have the same height
+db42a1a Move the docs about configuration to sqlectron-core
+640c498 Upgrade sqlectron-core to version 1.0.0
+09abe59 Export the whole sqlectron-core to the render process
+53a27d5 Fix problem rendering error messages from query result
+3b9f223 Include missing word into the docs
+62e7fb9 Fix problem with validation of SSH fields
+647fc53 Add input file fields for privateKey and socketPath
+111a71d Apply some changes suggested by ESLint
+1e6fe9f Remove not used file
+3147701 Remove useless css styles and div components
+5d4136f Decrease debounce time for the typing query
+c98c32b Improve rendering performance of query results
+6600423 Change shortkey to execute query for CmdOrCtrl+Enter
+8bc5a2d Fix discard button
+62bd8eb Add script to generated compressed release files
+1b31085 0.1.1
+84929ef Change the icon and message in the button to leave the server
+312ba51 Improve the table layout
+dd13599 Improve error message to display in a message component
+46ac495 Add link in the log redirecting to the Github project
+68aac8a Increase the space around the center container
+c89b140 Fix bottom bar over other components
+4673ea1 Allow connect to databases with no credentials
+0d35e00 Add a simple screencast demo
+0f7506e 0.1.0
+8bf6f1d Fix problem rendering new servers
+59f8684 Convert in the action the results from remote to plain object
+fb374b2 Upgrade electron to latest version
+8454b23 Fix the center alignment for breadcrumb
+e427564 Add docs about the downloads page
+8013e8f Fix center alignment for logo in the splash screen
+e92b62c Load version from package.json
+42769cc Improve docs including current supported dbs and other descriptions
+f50bdf4 Add link to the project in the Github
+682b891 Use navbar logo from local file
+151ed50 Fix splash screen moving css and images to the head of the page
+3e0f41b Add row line number to query editor
+ccfc95d Include server as a property type of query-browser
+e682644 Remove some not used property types
+e7608cf Fix problem connecting to server
+cf199a2 Upgrade react and react-dom
+a55553d Change servers to keep isSaving property inside the store
+e265ba9 Set initial state for selectedId
+f9a0f18 Fix problem accessing getter properties from render
+f99a2dd Fix problem with modal reloading in large height window
+056ee11 Use initial state variable is a status default action
+a60bbf2 Remove not used Redux connect
+7cbf77f Add missing property type to Loader.jsx
+93d3b77 Remove useless React component constructors
+044dda5 Add missing comma
+ad7d758 Use id as key to render server item
+1f087e5 Fix problem rendering server item with same name
+1fada8d Upgrade sqlectron-core to version 0.3.0
+79d8494 Handle servers by id instead of name
+b4497c0 Improved loader and message components
+60af454 Redirect to initial page in case there is connection error
+cd475ab Handle changing database when selecting a table
+2c65b71 Remove useless bind
+a7115d0 Fix problem rendering object values
+53f8735 Rename queries state
+4a7d580 Fix problem not showing results when there is not rowCount property
+120d135 Fix part of a problem rendering date objects
+a4370cf Improve build to use the same “directory levels” in production and development
+35b3f43 Move common code to sqlectron-core module
+3fc96cc Remove useless logs
+962125a Fix project debug name
+f4a987a Fix problem that was triggering the save during the delete
+2c6a7aa Improve a bit the loading message
+04229ca Fix build to include the resources
+27053d0 Improve browser settings
+acabb0e Rollback electron upgrade
+dad124e Apply react-ace’s suggested changes
+091036b Remove hack to get messages from remote process
+44071f7 Upgrade all dependencies
+2fa0b4c Rename project to sqlectron-gui
+aa6e520 Merge pull request #23 from sqlectron/new-connection-approach
+182780f Fix menu shortcuts
+7861b63 Remove not used dbActions
+3ce83a8 Add status bar and remove logs and commented code
+109ac7a Move away server filter from action and reducer
+91266e2 Move connection initial state to variable
+95584c3 Fix database filter
+11cb7b6 Move initial state to a constant variable
+2e57baf Remove getDBSession
+28b1021 Join connection and database containers
+18c179c Break down the db actions in more specific actions
+16b9c06 Make work with the new connection approach
+853d0cf Merge pull request #22 from sqlectron/manage-servers
+f56cd39 Change code to not need use “else” statement
+a9cdf99 Fix modal closing during render
+b9d2bc7 Fix selected id
+9ea8697 Hide remove button when is a new server
+7a5315b Improve splash screen
+8637025 Fix responsive layout for list of servers
+e510a7f Use new logo in the splash screen
+ae0c93c Use new logo in the header
+849b1c1 Update link for the logo in the README
+b66869a Makes the server list simpler and prettier
+5fd83e1 Include the header navbar in the server management page
+c08646d Remove useless “show dimmer”
+189fed8 Break elements vertically to better readability
+062b64c Fix modal’s dimmer over another modal
+480aa0f Add support to remove a server connection
+33e1c12 Increase client’s icon size
+b2c3328 Add support to filter servers
+ac40e80 Configure ESLint differently for each environment
+a95eb0a Update react to version 0.14.0
+da8d460 Simplify the form modal and replace the validation
+c76b807 Configure Eslint to include browser environment
+7753439 Add support to auto restart the electron app in dev
+f9b8e6e Fix schema validation for ssh tunnel
+3ee0544 Add support to include new server
+1d21005 Start window maximized
+2954454 Add a workaround to handle errors from remote
+f09859e Better indent package.json
+c770943 Update electron to version 0.33.7
+903a743 Add support to update server
+9f6bba5 Rename server-add to server-modal-form
+257f74e Load selected server in the server modal form
+4323519 Improve the server list layout (initial page)
+409ad6d Add modal to add new servers
+cb410db Rename connections to servers
+10938fe Use a bigger logo in the README
+1572ce0 Add logo and description into the README
+1f64317 Merge pull request #21 from sqlectron/distribution
+97acfc9 Complete packaging tasks
+c68277d Update ESLint airbnb configuration
+fc0484c Add a script to run the local release
+1c3a27c Use electron target on Webpack instead of atom
+3308877 Ignore DS_Store files
+2ffa26c Add application icons
+48584bc Simplify code to ignore files in release
+556e016 Convert main to ES6
+ff07f8e Add editor config
+5cdf512 Add build task
+4ffd308 Organize the project in browser and rederer
+a2af384 Upgrade some dependencies and loads index in dev trough webpack
+f858794 Ignore NPM debug log
+c8403d5 Upgrade some modules
+dc8c09d Bump css-loader version
+d74312f Merge pull request #20 from sqlectron/splash-screen
+5e93489 Add splash screen
+9f4cdcf Move dev setup databases to a specific project
+eb619c5 Merge pull request #19 from sqlectron/load-servers-from-file
+bdaf45a Fix variable with wrong name
+940f388 Add example configuration file
+ffbddb3 Load connections from file
+5509ee0 Merge pull request #18 from sqlectron/header
+1077526 Resolve merge conflict
+a6da71a Merge pull request #16 from sqlectron/filter-dbs-tables
+c68761a Merge pull request #15 from sqlectron/dev-databases
+66c7abb Create header menu
+a184eb5 Organize db session
+d3294d5 Remove not used code
+7807863 Add filter box to filter databases and tables
+4c949ca Remove file not used anymore
+bff62c9 Configure databases for dev environment
+f4291dc Merge pull request #14 from sqlectron/replace-react-hot-loader
+18fbad3 Replace react-hot-loader
+5070a4b Merge pull request #13 from sqlectron/cleanup
+fedf079 Move constants related to actions to be inside actions folder
+242fd54 Remove app, styles and dialog
+3e6af6c Rename container with better names
+14178ae Rename pages to components
+99e5f0e Remove widgets
+4ee56aa Remove Validate Compoment
+66b341c Remove layouts folder
+8fa749b Resolve merge confict
+bc6dce7 Resolve merge conflit
+e44ff9f Merge pull request #10 from sqlectron/improve-actions-reducers
+1813372 Merge pull request #11 from sqlectron/ace-code-editor
+4ce0e4c Configure code editor for syntax highlighting
+d39a6a7 Change logger middleware due the new version
+c44e80c Rename actions types, actions and reducers
+eb4d879 Configure application menu and shortcuts
+a7d8c28 Merge pull request #7 from sqlectron/semantic-ui
+c5587d8 Upgrade all dependencies
+35921f3 Apply semantic ui layout to the main page
+d4a1676 Change sidebar (database/table list) and header layout
+02bf5f5 Add and Configure semantic-ui loader
+8016c0f Merge pull request #6 from sqlectron/connection-container
+ff8f4a7 Merge pull request #5 from sqlectron/basic-connection-page
+9ceaad6 improves a bit the layout for database list
+8532c5c shows error message for wrong queries
+713dc72 adds support to execute query and show the results
+7d26377 replaces console.log with redux logger
+14cff7d loads databases and tables using the sqlectron-db module
+7b9191e fixes function name
+1db85fc removes useless code
+e187e93 creates really simple layout for connection container
+329ef1f renames database-list to connection because now this container does more then just list databases
+0c36686 renames connections container
+9edcf15 bumps react-router to version rc1
+2a9ba0a creates a basic connection page it is the initial page and clicking in any connection moves to database list page
+0486eab fixes some problems from the last merge
+fd46ff3 resolves merge conflicts
+2d91c1f Merge pull request #3 from krolow/feature/renaming-files-to-keep-standard
+e780aee configures react router due a problem of context with the material ui I had to remove the references for material ui since were talking in not use the material I don’t think it is a problem
+fc293a6 configures web pack target for atom
+c9fcbb0 Fix to follow nomenclature standard
+0893140 Merge pull request #1 from sqlectron/upgrade-redux
+e87f2e2 upgrades redux and react-redux to version 2
+d2295ef moves controllers to containers following the todomvc example
+b63ca9b removes controller word from the name
+47e3074 upgrades redux to version 1.0.1 I followed the examples from redux todomvc
+85b80a2 upgrades material ui
+52fb52d configures hot reloading
+a0ff1da initial commit Architecture originally based on jonathanewerner's [pac example](https://github.com/jonathanewerner/pac).
